@@ -64,7 +64,7 @@ function Home() {
     if (!isDragging) return;
     const x = e.pageX;
     const delta = x - lastXRef.current;
-    rotationRef.current += delta * 0.05; 
+    rotationRef.current += delta * 0.05;
     velocityRef.current = delta * 0.05;
     lastXRef.current = x;
   };
@@ -151,7 +151,7 @@ function Home() {
       const iw = img.width;
       const ih = img.height;
 
-      const scale = Math.max(vw / iw, vh / ih) * 1.1; 
+      const scale = Math.max(vw / iw, vh / ih) * 1.1;
       const w = iw * scale;
       const h = ih * scale;
       const x = (vw - w) / 2;
@@ -407,19 +407,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="ignus-footer">
-        <div className="footer-content">
-          <h2 className="footer-title">Join Us</h2>
-          <p className="footer-text">
-            Be part of one of India's most vibrant cultural festivals. Register now and experience the magic of Ignus 2025.
-          </p>
-          <div className="footer-links">
-            <a href="#register" className="footer-link">Register</a>
-            <a href="#events" className="footer-link">View Events</a>
-            <a href="#contact" className="footer-link">Contact</a>
-          </div>
-        </div>
-      </section>
+
     </>
   );
 }

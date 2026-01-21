@@ -131,28 +131,27 @@ section {
   display: block;
 }
 
-/* About Section - Side-by-Side Layout */
+/* About Section - Side-by-Side Layout - Compact */
 .ignus-about {
-  min-height: 80vh;
-  /* Reduced min-height */
+  min-height: 30vh;
   display: flex;
-  align-items: center;
-  padding: 6rem 2rem;
+  align-items: flex-start;
+  padding: 2rem 20rem 2rem 2rem;
 }
 
 .about-frame {
-  max-width: 1400px;
+  max-width: 1100px;
   margin: 0 auto;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 0.8fr;
+  grid-template-columns: 1fr 0.75fr;
   /* Content Left, Stats Right */
-  gap: 4rem;
+  gap: 2rem;
   align-items: center;
 }
 
 .about-content {
-  padding: 4rem;
+  padding: 2rem;
   background: var(--bg-translucent);
   backdrop-filter: blur(var(--blur-amount));
   -webkit-backdrop-filter: blur(var(--blur-amount));
@@ -167,25 +166,25 @@ section {
   letter-spacing: 0.4em;
   color: var(--color-accent);
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: block;
 }
 
 .about-title {
   font-family: 'Cinzel', serif;
-  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
   font-weight: 600;
   letter-spacing: 0.02em;
   color: #ffffff;
   line-height: 1.2;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .about-description {
   font-family: 'Outfit', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 300;
-  line-height: 1.8;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -193,12 +192,12 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* 2x2 Grid */
-  gap: 2rem;
+  gap: 1.2rem;
 }
 
 .stat-block {
   text-align: left;
-  padding: 2rem;
+  padding: 1.2rem;
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -212,7 +211,7 @@ section {
 
 .stat-value {
   font-family: 'Cinzel', serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #ffffff;
   line-height: 1;
@@ -221,27 +220,26 @@ section {
 
 .stat-text {
   font-family: 'Outfit', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 500;
   letter-spacing: 0.25em;
   color: var(--color-accent);
   text-transform: uppercase;
 }
 
-/* Theme Section - Wider */
+/* Theme Section - Compact */
 .ignus-theme {
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   /* Right aligned */
-  padding: 6rem 4rem;
+  padding: 2rem 2rem 2rem 25rem;
 }
 
 .theme-content {
-  max-width: 1400px;
-  /* Wider */
-  padding: 4rem;
+  max-width: 900px;
+  padding: 2rem;
   background: var(--bg-translucent);
   backdrop-filter: blur(var(--blur-amount));
   border-right: 2px solid var(--color-accent);
@@ -250,29 +248,29 @@ section {
 
 .theme-year {
   font-family: 'Outfit', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.5em;
   color: var(--color-accent);
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   text-transform: uppercase;
 }
 
 .theme-title {
   font-family: 'Cinzel', serif;
-  font-size: clamp(4rem, 8vw, 7rem);
+  font-size: clamp(3rem, 7vw, 5.5rem);
   font-weight: 700;
   letter-spacing: 0.05em;
   color: #ffffff;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   line-height: 1;
 }
 
 .theme-description {
   font-family: 'Outfit', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 300;
-  line-height: 1.8;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -312,6 +310,7 @@ section {
   align-items: center;
   transform-style: preserve-3d;
   cursor: grab;
+  padding-bottom: 8rem;
 }
 
 .gallery-container:active {
@@ -332,7 +331,7 @@ section {
   width: 100%;
   height: 100%;
   transform-origin: center;
-  transform: rotateY(calc(var(--i) * (360deg / var(--total)))) translateZ(550px);
+  transform: rotateY(calc(var(--i) * (360deg / var(--total)))) translateZ(450px);
   -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
   user-select: none;
   transition: transform 0.3s ease;
@@ -360,73 +359,6 @@ section {
   box-shadow: 0 0 40px rgba(212, 175, 55, 0.5);
 }
 
-/* Footer Section */
-.ignus-footer {
-  min-height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 6rem 2rem;
-  background: linear-gradient(to top, #000000, transparent);
-  position: relative;
-}
-
-.footer-content {
-  text-align: center;
-  max-width: 900px;
-  padding: 4rem;
-  background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 2px;
-}
-
-.footer-title {
-  font-family: 'Cinzel', serif;
-  font-size: clamp(3rem, 5vw, 4.5rem);
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  color: #ffffff;
-  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
-}
-
-.footer-text {
-  font-family: 'Outfit', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 3rem;
-  line-height: 1.6;
-}
-
-.footer-links {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.footer-link {
-  font-family: 'Outfit', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 0.2em;
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 1rem 2.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  transition: all 0.3s ease;
-  background: rgba(255, 255, 255, 0.05);
-}
-
-.footer-link:hover {
-  background: var(--color-accent);
-  color: #000000;
-  border-color: var(--color-accent);
-  box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
-  transform: translateY(-3px);
-}
-
 /* Responsive */
 @media (max-width: 1024px) {
   .about-frame {
@@ -446,7 +378,7 @@ section {
 @media (max-width: 768px) {
   .ignus-theme {
     justify-content: center;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
   }
 
   .theme-content {
