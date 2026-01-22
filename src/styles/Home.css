@@ -75,7 +75,7 @@ section {
 }
 
 .ignus-title {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: clamp(4rem, 15vw, 12rem);
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -87,7 +87,7 @@ section {
 }
 
 .ignus-subtitle {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Bungee', sans-serif;
   font-size: clamp(1rem, 2vw, 1.5rem);
   font-weight: 300;
   letter-spacing: 0.6em;
@@ -98,7 +98,7 @@ section {
 }
 
 .ignus-date {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Bungee', sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: 0.3em;
@@ -121,7 +121,7 @@ section {
 }
 
 .scroll-text {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Bungee', sans-serif;
   font-size: 0.75rem;
   letter-spacing: 0.3em;
   font-weight: 500;
@@ -160,7 +160,7 @@ section {
 }
 
 .section-label {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Bungee', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.4em;
@@ -171,7 +171,7 @@ section {
 }
 
 .about-title {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: clamp(2.5rem, 4vw, 3.5rem);
   font-weight: 600;
   letter-spacing: 0.02em;
@@ -181,7 +181,7 @@ section {
 }
 
 .about-description {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Bungee', sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.7;
@@ -210,7 +210,7 @@ section {
 }
 
 .stat-value {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: 2.5rem;
   font-weight: 700;
   color: #ffffff;
@@ -219,7 +219,7 @@ section {
 }
 
 .stat-text {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Bungee', sans-serif;
   font-size: 0.85rem;
   font-weight: 500;
   letter-spacing: 0.25em;
@@ -247,7 +247,7 @@ section {
 }
 
 .theme-year {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Bungee', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.5em;
@@ -257,7 +257,7 @@ section {
 }
 
 .theme-title {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: clamp(3rem, 7vw, 5.5rem);
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -267,7 +267,7 @@ section {
 }
 
 .theme-description {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Bungee', sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.7;
@@ -293,7 +293,7 @@ section {
 }
 
 .gallery-title {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel Decorative', serif;
   font-size: clamp(3rem, 6vw, 5rem);
   font-weight: 600;
   letter-spacing: 0.2em;
