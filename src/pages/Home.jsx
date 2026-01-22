@@ -323,7 +323,7 @@ function Home() {
         <div className="ignus-brand">
           <h1 className="ignus-title">IGNUS</h1>
           <p className="ignus-subtitle">Annual Cultural Festival of IIT Jodhpur</p>
-          <p className="ignus-date">February 2025</p>
+          <p className="ignus-date">05-08 February 2026</p>
           <div className="scroll-hint">
             <div className="scroll-line"></div>
             <span className="scroll-text">Scroll</span>
@@ -363,10 +363,10 @@ function Home() {
 
       <section className="ignus-theme">
         <div className="theme-content">
-          <p className="theme-year">IGNUS 2025</p>
-          <h2 className="theme-title">RENAISSANCE</h2>
+          <p className="theme-year">IGNUS 2026</p>
+          <h2 className="theme-title">Midnight Carnival</h2>
           <p className="theme-description">
-            A rebirth of creativity, culture, and community. This year's theme celebrates the timeless spirit of innovation and artistic expression, bridging the past with the future through music, dance, art, and human connection.
+            Step into a world where dreams come alive under the stars. The Midnight Carnival beckons with enchanting performances, mesmerizing art, and electrifying music. Experience the magic of the night as we celebrate culture, creativity, and connection in a spectacular festival of wonder.
           </p>
         </div>
       </section>
